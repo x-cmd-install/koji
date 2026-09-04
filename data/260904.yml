@@ -7,7 +7,7 @@ about:
   head: 9a0b96e
   archived: false
   latestVersion: v3.4.0
-  collectedAt: 2026-09-04T19:57:45Z
+  collectedAt: 2026-09-04T20:41:26Z
 timeline:
   created: 2021-10-20
   lastCommit: 2026-07-30
@@ -80,5 +80,33 @@ total:
   openIssue: 12
   commit: 206
 ---
+path: /home/runner/.x-repo/github.com/cococonscious/koji
+collectedAt: 2026-09-04T20:41:26Z
+loc:
+  Rust:
+    code: 2797
+    comments: 68
+    blanks: 571
+    files: 10
+  Toml:
+    code: 102
+    comments: 0
+    blanks: 19
+    files: 2
+  Json:
+    code: 9
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 398
+    blanks: 257
+    files: 2
+total:
+  code: 2952
+  comments: 510
+  blanks: 851
+  files: 15
 ---
 
