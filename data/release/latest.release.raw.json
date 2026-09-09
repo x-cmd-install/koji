@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 3687834,
       "digest": "sha256:5a68fd6def6d3b7eb8de4afa3e1d1ae9ea7337ed2527762169f1239893fa5c54",
-      "download_count": 79,
+      "download_count": 80,
       "created_at": "2026-02-25T14:02:38Z",
       "updated_at": "2026-02-25T14:02:39Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-unknown-linux-gnu.tar.gz"
