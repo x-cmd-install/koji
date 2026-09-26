@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3637616,
       "digest": "sha256:05a8eca10a272d71f57bb0061b65565dabaefec169a8164324198ad482a7bc6e",
-      "download_count": 41,
+      "download_count": 43,
       "created_at": "2026-02-25T14:02:47Z",
       "updated_at": "2026-02-25T14:02:47Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2698766,
       "digest": "sha256:cb927d62298ed515db10e8d7eeac1780faeee4d89261c11b0f45cd4be517d61b",
-      "download_count": 7,
+      "download_count": 9,
       "created_at": "2026-02-25T14:05:10Z",
       "updated_at": "2026-02-25T14:05:10Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-pc-windows-msvc.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3939891,
       "digest": "sha256:85e5178eae873946979d188a11ba3dc11f65362af0f5dcb7ada376c746c5efa4",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-02-25T14:03:27Z",
       "updated_at": "2026-02-25T14:03:28Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-unknown-linux-gnu.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 3920686,
       "digest": "sha256:f16452a1962e8d8dff9c280a5128abd674e37b358cf31f61d42c8e89f48ca020",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-02-25T14:03:06Z",
       "updated_at": "2026-02-25T14:03:07Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-unknown-linux-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 3558617,
       "digest": "sha256:ef42a37b80be52b946ece97e262e35ec851d519a0c274f9b8baaa2cb871c0316",
-      "download_count": 8,
+      "download_count": 9,
       "created_at": "2026-02-25T14:04:10Z",
       "updated_at": "2026-02-25T14:04:11Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-apple-darwin.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2829435,
       "digest": "sha256:d34bde39e9febc4dbf94588eb6d91b80d784b6e93110ca52871d2309ce1642ad",
-      "download_count": 16,
+      "download_count": 17,
       "created_at": "2026-02-25T14:04:56Z",
       "updated_at": "2026-02-25T14:04:57Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-pc-windows-msvc.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 3687834,
       "digest": "sha256:5a68fd6def6d3b7eb8de4afa3e1d1ae9ea7337ed2527762169f1239893fa5c54",
-      "download_count": 110,
+      "download_count": 113,
       "created_at": "2026-02-25T14:02:38Z",
       "updated_at": "2026-02-25T14:02:39Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-unknown-linux-gnu.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 3783415,
       "digest": "sha256:84bea66389e8d98c08df927d52b5342a2e89d8a8abbfe0133ab537d5809680df",
-      "download_count": 33,
+      "download_count": 34,
       "created_at": "2026-02-25T14:03:08Z",
       "updated_at": "2026-02-25T14:03:09Z",
       "browser_download_url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-unknown-linux-musl.tar.gz"
