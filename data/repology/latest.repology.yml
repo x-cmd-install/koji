@@ -11,17 +11,6 @@
   licenses:
     - GPL2
     - LGPL2.1
-- repo: epel_6
-  srcname: koji
-  visiblename: koji
-  version: 1.21.0
-  origversion: 1.21.0-2.el6
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LGPLv2 and GPLv2+
-  categories:
-    - Unspecified
 - repo: epel_7
   srcname: koji
   visiblename: koji
@@ -199,32 +188,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.1
-  origversion: 1.35.1-1.fc41
-  status: legacy
-  summary: Build system tools
-  licenses:
-    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: koji
   binnames:
@@ -248,6 +211,32 @@
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.35.1
+  origversion: 1.35.1-1.fc41
+  status: legacy
+  summary: Build system tools
+  licenses:
+    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
   categories:
     - Unspecified
 - repo: fedora_42
@@ -303,32 +292,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.3
-  origversion: 1.35.3-7.fc43
-  status: legacy
-  summary: Build system tools
-  licenses:
-    - LGPL-2.1-only AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: koji
   binnames:
@@ -354,8 +317,8 @@
     - LGPL-2.1-only AND GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: koji
   binnames:
     - koji
@@ -372,9 +335,9 @@
     - koji-web
     - python3-koji-web
   visiblename: koji
-  version: 1.36.1
-  origversion: 1.36.1-1.fc44
-  status: outdated
+  version: 1.35.3
+  origversion: 1.35.3-7.fc43
+  status: legacy
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
@@ -401,6 +364,32 @@
   version: 1.35.3
   origversion: 1.35.3-9.fc44
   status: legacy
+  summary: Build system tools
+  licenses:
+    - LGPL-2.1-only AND GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.36.1
+  origversion: 1.36.1-1.fc44
+  status: outdated
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
@@ -446,29 +435,6 @@
   origversion: null
   status: rolling
   summary: Interactive CLI for creating conventional commits
-- repo: mageia_10
-  subrepo: core/release
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - koji-hub-plugins
-    - koji-builder
-    - koji-builder-plugins
-    - koji-vm
-    - koji-utils
-    - koji-web
-  visiblename: koji
-  version: 1.35.2
-  origversion: 1.35.2-2.mga10
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LGPLv2
-  categories:
-    - System/Packaging
 - repo: mageia_9
   subrepo: core/release
   srcname: koji
@@ -486,6 +452,29 @@
   visiblename: koji
   version: 1.32.0
   origversion: 1.32.0-1.mga9
+  status: outdated
+  summary: Build system tools
+  licenses:
+    - LGPLv2
+  categories:
+    - System/Packaging
+- repo: mageia_10
+  subrepo: core/release
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - koji-hub-plugins
+    - koji-builder
+    - koji-builder-plugins
+    - koji-vm
+    - koji-utils
+    - koji-web
+  visiblename: koji
+  version: 1.35.2
+  origversion: 1.35.2-2.mga10
   status: outdated
   summary: Build system tools
   licenses:
