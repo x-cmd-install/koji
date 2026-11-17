@@ -96,32 +96,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: updates
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.1
-  origversion: 1.35.1-2.fc39
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: koji
   binnames:
@@ -145,6 +119,32 @@
   summary: Build system tools
   licenses:
     - LGPLv2 and GPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.35.1
+  origversion: 1.35.1-2.fc39
+  status: outdated
+  summary: Build system tools
+  licenses:
+    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
   categories:
     - Unspecified
 - repo: fedora_40
@@ -200,32 +200,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.2
-  origversion: 1.35.2-1.fc41
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LGPL-2.1-only AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: koji
   binnames:
@@ -251,7 +225,7 @@
     - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: updates
   srcname: koji
   binnames:
@@ -269,8 +243,8 @@
     - koji-web
     - python3-koji-web
   visiblename: koji
-  version: 1.35.3
-  origversion: 1.35.3-2.fc42
+  version: 1.35.2
+  origversion: 1.35.2-1.fc41
   status: outdated
   summary: Build system tools
   licenses:
@@ -298,6 +272,32 @@
   version: 1.35.2
   origversion: 1.35.2-1.fc42
   status: legacy
+  summary: Build system tools
+  licenses:
+    - LGPL-2.1-only AND GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.35.3
+  origversion: 1.35.3-2.fc42
+  status: outdated
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
@@ -401,6 +401,32 @@
   visiblename: koji
   version: 1.36.1
   origversion: 1.36.1-1.fc44
+  status: outdated
+  summary: Build system tools
+  licenses:
+    - LGPL-2.1-only AND GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.36.1
+  origversion: 1.36.1-3.fc45
   status: outdated
   summary: Build system tools
   licenses:
