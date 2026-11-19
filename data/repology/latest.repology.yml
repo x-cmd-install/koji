@@ -10,6 +10,40 @@
     - weethet@github
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: koji
+  visiblename: koji
+  version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: An interactive CLI for creating conventional commits
+  maintainers:
+    - bytesudoer@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: koji
+  visiblename: koji
+  version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: Interactive CLI for creating conventional commits
+  maintainers:
+    - bytesudoer@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: koji
+  visiblename: koji
+  version: 3.2.0
+  origversion: null
+  status: outdated
+  summary: Interactive CLI for creating conventional commits
+  maintainers:
+    - bytesudoer@gmail.com
+    - weethet@github
+  licenses:
+    - MIT
 - repo: aur
   srcname: koji
   binname: koji
@@ -148,32 +182,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.1
-  origversion: 1.35.1-2.fc40
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: koji
   binnames:
@@ -197,6 +205,32 @@
   summary: Build system tools
   licenses:
     - LGPLv2 and GPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.35.1
+  origversion: 1.35.1-2.fc40
+  status: outdated
+  summary: Build system tools
+  licenses:
+    - LicenseRef-Callaway-LGPLv2 AND GPL-2.0-or-later
   categories:
     - Unspecified
 - repo: fedora_41
@@ -252,32 +286,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - python3-koji-hub
-    - koji-hub-plugins
-    - python3-koji-hub-plugins
-    - koji-builder-plugins
-    - koji-builder
-    - koji-vm
-    - koji-utils
-    - koji-web
-    - python3-koji-web
-  visiblename: koji
-  version: 1.35.2
-  origversion: 1.35.2-1.fc42
-  status: legacy
-  summary: Build system tools
-  licenses:
-    - LGPL-2.1-only AND GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: koji
   binnames:
@@ -303,8 +311,8 @@
     - LGPL-2.1-only AND GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: koji
   binnames:
     - koji
@@ -321,9 +329,9 @@
     - koji-web
     - python3-koji-web
   visiblename: koji
-  version: 1.36.1
-  origversion: 1.36.1-1.fc43
-  status: outdated
+  version: 1.35.2
+  origversion: 1.35.2-1.fc42
+  status: legacy
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
@@ -350,6 +358,32 @@
   version: 1.35.3
   origversion: 1.35.3-7.fc43
   status: legacy
+  summary: Build system tools
+  licenses:
+    - LGPL-2.1-only AND GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: koji
+  binnames:
+    - koji
+    - python3-koji
+    - python3-koji-cli-plugins
+    - koji-hub
+    - python3-koji-hub
+    - koji-hub-plugins
+    - python3-koji-hub-plugins
+    - koji-builder-plugins
+    - koji-builder
+    - koji-vm
+    - koji-utils
+    - koji-web
+    - python3-koji-web
+  visiblename: koji
+  version: 1.36.1
+  origversion: 1.36.1-1.fc43
+  status: outdated
   summary: Build system tools
   licenses:
     - LGPL-2.1-only AND GPL-2.0-or-later
@@ -473,29 +507,6 @@
   origversion: null
   status: rolling
   summary: Interactive CLI for creating conventional commits
-- repo: mageia_9
-  subrepo: core/release
-  srcname: koji
-  binnames:
-    - koji
-    - python3-koji
-    - python3-koji-cli-plugins
-    - koji-hub
-    - koji-hub-plugins
-    - koji-builder
-    - koji-builder-plugins
-    - koji-vm
-    - koji-utils
-    - koji-web
-  visiblename: koji
-  version: 1.32.0
-  origversion: 1.32.0-1.mga9
-  status: outdated
-  summary: Build system tools
-  licenses:
-    - LGPLv2
-  categories:
-    - System/Packaging
 - repo: mageia_10
   subrepo: core/release
   srcname: koji
@@ -542,40 +553,6 @@
     - LGPLv2
   categories:
     - System/Packaging
-- repo: nix_stable_24_05
-  srcname: koji
-  visiblename: koji
-  version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: An interactive CLI for creating conventional commits
-  maintainers:
-    - bytesudoer@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: koji
-  visiblename: koji
-  version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: Interactive CLI for creating conventional commits
-  maintainers:
-    - bytesudoer@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: koji
-  visiblename: koji
-  version: 3.2.0
-  origversion: null
-  status: outdated
-  summary: Interactive CLI for creating conventional commits
-  maintainers:
-    - bytesudoer@gmail.com
-    - weethet@github
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: koji
   visiblename: koji
@@ -600,23 +577,6 @@
     - weethet@github
   licenses:
     - MIT
-- repo: deepin_unstable
-  subrepo: main
-  srcname: koji
-  binnames:
-    - koji-common
-    - koji-client
-    - koji-servers
-  visiblename: koji
-  version: 1.16.2
-  origversion: 1.16.2-1
-  status: outdated
-  maintainers:
-    - reproducible-builds@lists.alioth.debian.org
-    - holger@debian.org
-    - infinity0@debian.org
-    - marmarek@invisiblethingslab.com
-  vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
   srcname: koji
@@ -671,4 +631,21 @@
     - marmarek@invisiblethingslab.com
   categories:
     - universe/misc
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: koji
+  binnames:
+    - koji-common
+    - koji-client
+    - koji-servers
+  visiblename: koji
+  version: 1.16.2
+  origversion: 1.16.2-1
+  status: outdated
+  maintainers:
+    - reproducible-builds@lists.alioth.debian.org
+    - holger@debian.org
+    - infinity0@debian.org
+    - marmarek@invisiblethingslab.com
   vulnerable: true
