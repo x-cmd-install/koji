@@ -36,22 +36,22 @@ Total: **2,908** lines of code across **15** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 473 · **Forks**: 16 · **Open issues**: 56 · **Contributors**: 6
+- **Stars**: 474 · **Forks**: 16 · **Open issues**: 57 · **Contributors**: 6
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 111 · **Open PRs**: 16 · **Closed issues**: 44 · **Open issues**: 12 · **Commits**: 206
+- **Releases**: 19 · **Merged PRs**: 111 · **Open PRs**: 16 · **Closed issues**: 44 · **Open issues**: 13 · **Commits**: 206
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 6 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 8 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 0 | 3 | 12 | 1 | 0 | 8 |
-| 360d | 2025-11-22 | 3 | 25 | 16 | 1 | 1 | 34 |
-| last720d | 2024-11-27 | 5 | 45 | 16 | 8 | 7 | 51 |
+| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 6 | 0 | 1 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 8 | 0 | 1 | 0 |
+| last180d | 2026-05-23 | 0 | 3 | 12 | 1 | 1 | 8 |
+| 360d | 2025-11-24 | 3 | 25 | 16 | 1 | 2 | 34 |
+| last720d | 2024-11-29 | 5 | 45 | 16 | 8 | 8 | 51 |
 
 ## Release assets
 
@@ -70,7 +70,7 @@ Total: **2,908** lines of code across **15** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **34** distros on [repology.org](https://repology.org/project/koji). **3** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
+Reported by **33** distros on [repology.org](https://repology.org/project/koji). **3** are ✅ on the latest upstream release, **23** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for koji lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:19:03Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:14:10Z._
